@@ -34,8 +34,8 @@ const projects = [
     freelance: false,
     icon: "📄",
     accent: "#00f5c4",
-    githubUrl: "https://github.com/Mavi28/rag-document-assistant.git",
-    liveUrl: "https://rag-document-assistantt.streamlit.app/",
+    githubUrl: "https://github.com/Mavi28/multi-pdf-ragqa.git",
+    liveUrl: "https://multi-pdf-ragapp.streamlit.app/",
   },
   {
     id: 2,
@@ -53,8 +53,8 @@ const projects = [
     freelance: false,
     icon: "💬",
     accent: "#a855f7",
-    githubUrl: "https://github.com/Mavi28/ConvoPro-private-chatgpt.git",
-    liveUrl: null,
+    githubUrl: "https://github.com/Mavi28/streamlit-genai-chatbot.git",
+    liveUrl: "https://scarlet-chatbot.streamlit.app/",
   },
   {
     id: 3,
