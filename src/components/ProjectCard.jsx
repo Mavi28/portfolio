@@ -180,25 +180,58 @@ export default function ProjectCard({ project, index, onViewDetails }) {
         </div>
 
         {/* CTA */}
-        <button
-          onClick={() => onViewDetails(project)}
-          style={{
-            marginTop: "0.25rem",
-            padding: "8px 0",
-            background: "none",
-            border: `1px solid ${project.accent}33`,
-            borderRadius: 8,
-            color: project.accent,
-            fontFamily: "'Space Mono', monospace",
-            fontSize: 12,
-            cursor: "pointer",
-            transition: "background 0.2s, border-color 0.2s",
-          }}
-          onMouseEnter={(e) => { e.target.style.background = `${project.accent}15`; e.target.style.borderColor = `${project.accent}66`; }}
-          onMouseLeave={(e) => { e.target.style.background = "none"; e.target.style.borderColor = `${project.accent}33`; }}
-        >
-          View Details →
-        </button>
+        <div style={{ marginTop: "0.25rem", display: "flex", gap: "0.5rem" }}>
+          <button
+            onClick={() => onViewDetails(project)}
+            style={{
+              flex: 1,
+              padding: "8px 0",
+              background: "none",
+              border: `1px solid ${project.accent}33`,
+              borderRadius: 8,
+              color: project.accent,
+              fontFamily: "'Space Mono', monospace",
+              fontSize: 12,
+              cursor: "pointer",
+              transition: "background 0.2s, border-color 0.2s",
+            }}
+            onMouseEnter={(e) => { e.target.style.background = `${project.accent}15`; e.target.style.borderColor = `${project.accent}66`; }}
+            onMouseLeave={(e) => { e.target.style.background = "none"; e.target.style.borderColor = `${project.accent}33`; }}
+          >
+            View Details →
+          </button>
+          {project.liveUrl && (
+            <a
+              href={project.liveUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={(e) => e.stopPropagation()}
+              style={{
+                flex: 1,
+                padding: "8px 0",
+                background: project.accent,
+                border: `1px solid ${project.accent}`,
+                borderRadius: 8,
+                color: "#050810",
+                fontFamily: "'Space Mono', monospace",
+                fontSize: 12,
+                fontWeight: 700,
+                cursor: "pointer",
+                transition: "opacity 0.2s",
+                textDecoration: "none",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                gap: "0.3rem",
+              }}
+              onMouseEnter={(e) => { e.currentTarget.style.opacity = "0.85"; }}
+              onMouseLeave={(e) => { e.currentTarget.style.opacity = "1"; }}
+            >
+              <ExternalLink size={12} strokeWidth={2.5} />
+              Live Demo
+            </a>
+          )}
+        </div>
       </div>
     </motion.div>
   );

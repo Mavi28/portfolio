@@ -34,8 +34,8 @@ const projects = [
     freelance: false,
     icon: "📄",
     accent: "#00f5c4",
-    githubUrl: "https://github.com/Mavi28",
-    liveUrl: null,
+    githubUrl: "https://github.com/Mavi28/rag-document-assistant.git",
+    liveUrl: "https://rag-document-assistantt.streamlit.app/",
   },
   {
     id: 2,
@@ -53,7 +53,7 @@ const projects = [
     freelance: false,
     icon: "💬",
     accent: "#a855f7",
-    githubUrl: "https://github.com/Mavi28",
+    githubUrl: "https://github.com/Mavi28/ConvoPro-private-chatgpt.git",
     liveUrl: null,
   },
   {
@@ -72,8 +72,8 @@ const projects = [
     freelance: false,
     icon: "🎓",
     accent: "#3b82f6",
-    githubUrl: "https://github.com/Mavi28",
-    liveUrl: null,
+    githubUrl: "https://github.com/Mavi28/Ai_study_coach.git",
+    liveUrl: "https://aistudycoach1.vercel.app/",
   },
   {
     id: 4,
@@ -96,11 +96,11 @@ const projects = [
   },
   {
     id: 5,
-    title: "MCP Server",
+    title: "MCP Server real-time weather tool",
     description:
       "Model Context Protocol server enabling AI agents to interact with external tools through a standardised interface.",
     bullets: [
-      "Built to MCP spec for plug-and-play tool use by AI agents",
+      "A custom MCP server providing real-time weather as a tool for Claude and autonomous AI agents via OpenWeatherMap.”",
       "Modular tool registry with runtime discovery and schema validation",
       "FastAPI + MCP SDK with full OpenAPI documentation",
     ],
@@ -110,7 +110,7 @@ const projects = [
     freelance: false,
     icon: "⚙️",
     accent: "#ef4444",
-    githubUrl: "https://github.com/Mavi28",
+    githubUrl: "https://github.com/Mavi28/mcp_server.git",
     liveUrl: null,
   },
   {
@@ -129,8 +129,8 @@ const projects = [
     freelance: false,
     icon: "📋",
     accent: "#22c55e",
-    githubUrl: "https://github.com/Mavi28",
-    liveUrl: null,
+    githubUrl: "https://github.com/Mavi28/hirematch-ai.git",
+    liveUrl: "https://hirematch-aii.streamlit.app/",
   },
 ];
 
