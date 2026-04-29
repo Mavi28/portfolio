@@ -60,13 +60,13 @@ const projects = [
     id: 3,
     title: "AI Study Coach",
     description:
-      "AI-powered study assistant that generates personalised quizzes and adapts difficulty based on performance.",
+      "Full-stack MERN AI study assistant — quiz generation, document upload, study plans, progress tracking, and a Pomodoro focus timer.",
     bullets: [
-      "Prompt engineering + LLM chaining for adaptive difficulty quiz generation",
-      "Tracks learning progress across topics with performance analytics",
-      "Clean Streamlit UI with topic selection and score history",
+      "Built complete REST API with auth, quiz generation, document upload, study plan creation, and performance analytics",
+      "Pomodoro focus timer with streaks, music, drag functionality, and motivational quotes",
+      "MongoDB + Mongoose for user data, questions, documents, and progress tracking",
     ],
-    tech: ["Python", "OpenAI API", "LangChain", "Streamlit"],
+    tech: ["React", "Node.js", "Express", "MongoDB", "Mongoose", "JWT", "Multer"],
     category: "genai",
     year: 2025,
     freelance: false,
