@@ -178,7 +178,18 @@ export default function Hero() {
           style={{ flex: "0 0 auto", display: "flex", justifyContent: "center" }}
         >
           <div style={{ position: "relative" }}>
-          
+            <div
+              style={{
+                width: 280,
+                height: 280,
+                borderRadius: "50%",
+                overflow: "hidden",
+                border: "2px solid rgba(0,245,196,0.3)",
+                boxShadow: "0 0 60px rgba(0,245,196,0.12), 0 0 120px rgba(0,245,196,0.06)",
+              }}
+            >
+              
+            </div>
             {/* Glow ring */}
             <div
               style={{
