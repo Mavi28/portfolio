@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import { motion } from "framer-motion";
-import avatarSrc from "../assets/avatar.jpg";
+
 
 const roles = ["ML Engineer", "AI Engineer", "RAG Builder", "GenAI Developer"];
 
@@ -169,49 +169,6 @@ export default function Hero() {
             </a>
           </motion.div>
         </div>
-
-        {/* Avatar */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.85 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ delay: 0.4, duration: 0.7, ease: "easeOut" }}
-          style={{ flex: "0 0 auto", display: "flex", justifyContent: "center" }}
-        >
-          <div style={{ position: "relative" }}>
-            <div
-              style={{
-                width: 280,
-                height: 280,
-                borderRadius: "50%",
-                overflow: "hidden",
-                border: "2px solid rgba(0,245,196,0.3)",
-                boxShadow: "0 0 60px rgba(0,245,196,0.12), 0 0 120px rgba(0,245,196,0.06)",
-              }}
-            >
-              <img
-                src={avatarSrc}
-                alt="LEEN MOHAMMED"
-                style={{ width: "100%", height: "100%", objectFit: "cover" }}
-                onError={(e) => {
-                  e.target.style.display = "none";
-                  e.target.parentNode.style.background = "linear-gradient(135deg, #0d1117 0%, #161b27 100%)";
-                  e.target.parentNode.innerHTML = `<div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-family:'Space Mono',monospace;font-size:64px;">👤</div>`;
-                }}
-              />
-            </div>
-            {/* Glow ring */}
-            <div
-              style={{
-                position: "absolute",
-                inset: -12,
-                borderRadius: "50%",
-                border: "1px solid rgba(0,245,196,0.1)",
-                animation: "pulse-ring 3s ease-in-out infinite",
-              }}
-            />
-            <style>{`@keyframes pulse-ring{0%,100%{transform:scale(1);opacity:0.5}50%{transform:scale(1.04);opacity:1}}`}</style>
-          </div>
-        </motion.div>
       </div>
     </section>
   );
