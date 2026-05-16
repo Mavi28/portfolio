@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import { motion } from "framer-motion";
-import avatarSrc from "../assets/avatar.jpg";
+
 
 const roles = ["ML Engineer", "AI Engineer", "RAG Builder", "GenAI Developer"];
 
