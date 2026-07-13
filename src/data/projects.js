@@ -77,7 +77,7 @@ const projects = [
   },
   {
     id: 4,
-    title: "Wolf Drop — B2B Dropshipping",
+    title: "Wolf Platform — B2B Dropshipping",
     description:
       "Full-stack B2B dropshipping platform for a real client — product catalogue, supplier integration, order management.",
     bullets: [
@@ -92,7 +92,7 @@ const projects = [
     icon: "🐺", 
     accent: "#f59e0b",
     githubUrl: null,
-    liveUrl: https://www.wolfplatform.net/,
+    liveUrl: "https://www.wolfplatform.net/",
   },
   {
   id: 5,
