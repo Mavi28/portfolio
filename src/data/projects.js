@@ -92,7 +92,7 @@ const projects = [
     icon: "🐺", 
     accent: "#f59e0b",
     githubUrl: null,
-    liveUrl: null,
+    liveUrl: https://www.wolfplatform.net/,
   },
   {
   id: 5,
