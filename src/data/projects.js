@@ -150,7 +150,7 @@ const projects = [
     icon: "👗",
     accent: "#f9a8d4",
     githubUrl: "https://github.com/Mavi28/Yzeydenim",
-    liveUrl: "https://yzeydenim.vercel.app/",
+    liveUrl: "https://www.yzeydenim.com/",
   },
 ];
 
