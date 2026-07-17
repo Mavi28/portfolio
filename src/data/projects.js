@@ -132,6 +132,26 @@ const projects = [
     githubUrl: "https://github.com/Mavi28/hirematch-ai.git",
     liveUrl: "https://hirematch-aii.streamlit.app/",
   },
+  {
+    id: 7,
+    title: "Yzeydenim — Idea of Her",
+    description:
+      "Full-stack feminine denim e-commerce store based in Egypt. A rebrand from brutalist streetwear to soft editorial aesthetic with full shopping experience.",
+    bullets: [
+      "Built complete e-commerce flow — product catalogue, authentication, and checkout",
+      "Rebranded from dark streetwear to soft feminine editorial (pink/blue/lavender palette)",
+      "Cloudinary for image hosting, Resend for transactional emails, Google Analytics 4 for tracking",
+      "NextAuth v5 for auth, Zustand for state management, React Hook Form + Zod for validation",
+    ],
+    tech: ["Next.js 14", "TypeScript", "Tailwind CSS", "MongoDB", "NextAuth", "Cloudinary", "Framer Motion", "Zustand"],
+    category: "fullstack",
+    year: 2026,
+    freelance: true,
+    icon: "👗",
+    accent: "#f9a8d4",
+    githubUrl: "https://github.com/Mavi28/Yzeydenim",
+    liveUrl: "https://yzeydenim.com",
+  },
 ];
 
 export default projects;
